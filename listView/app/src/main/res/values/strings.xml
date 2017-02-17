@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">listView</string>
+    <string-array name="categoriascontactos">
+        <item>Hola</item>
+        <item>gente</item>
+        <item>como</item>
+        <item>estamos</item>
+        <item>aqui</item>
+        <item>Vegeta777</item>
+        <item>comentando</item>
+        <item>un</item>
+        <item>nuevo</item>
+        <item>gameplay</item>
+    </string-array>
+    <string name="prompt">has Seleccionado</string>
+</resources>
