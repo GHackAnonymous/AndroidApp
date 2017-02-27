@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="0"
+    android:layout_margin="10dp"
+
+    android:descendantFocusability="blocksDescendants">
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:clickable="false">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/texNombre"
+            android:textSize="5mm"
+            android:textColor="#ff0000ff"
+            android:hint="@string/hintnombre"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textTelefono"
+            android:layout_column="36"
+            android:textColor="#ffff0000"
+            android:textIsSelectable="true"
+            android:textSize="5mm"
+            android:linksClickable="true"
+            android:hint="@string/hinttelefono"
+            android:autoLink="phone" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="false">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textApellido"
+            android:textColor="#ff0000ff"
+            android:textSize="5mm"
+            android:hint="@string/hintapellido" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textNota"
+            android:layout_column="36"
+            android:textSize="3mm"
+            android:hint="@string/hintnota" />
+    </TableRow>
+
+</TableLayout>

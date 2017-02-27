@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ListaFragment</string>
+    <string name="textBotonOK">OK</string>
+    <string name="textBotonCancel">Cancelar</string>
+    <string name="hintnombre">nombre</string>
+    <string name="hinttelefono">telefono</string>
+    <string name="hintapellido">apellido</string>
+    <string name="hintnota">nota</string>
+    <string name="titulodialogoborrar">Diálogo confirmación</string>
+    <string name="mensajedialogoborrar">Seguro que quieres borrarlo?</string>
+    <string name="botonOkdialogoborrar">Confirmar</string>
+    <string name="botonCanceldialogoborrar">Cancelar</string>
+    <string name="opcionborrar">borrar</string>
+    <string name="opcionenviar">enviar</string>
+    <string name="opcionedit">editar</string>
+    <string name="opcionanadir">añadir</string>
+</resources>
